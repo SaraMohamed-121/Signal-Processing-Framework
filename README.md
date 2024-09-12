@@ -1,4 +1,4 @@
-# Signal Processing Framework Development 📊 
+# Signal Processing Framework Development 📊🧮
 This project is a framework for signal processing using Python, designed to help visualize and manipulate signals with various features.
 
 # DSP Task 1 - Signal Processing Framework
@@ -22,7 +22,7 @@ This project is a framework for signal processing using Python, designed to help
 ### 3. Multiple Signal Display
 - The framework supports displaying two signals at the same time for comparison and analysis.
 
-## Usage
+## 🎯Usage
 1. **Reading Signal Samples from a File**: Place your signal samples in a `.txt` file and load it into the framework to visualize the signal.
 2. **Generating a Signal**:
    - From the menu, choose to generate a sine or cosine wave.
@@ -59,6 +59,6 @@ This project is a framework for signal processing using Python, designed to help
   - **Encoded Signal**: The encoded representation of the quantized signal.
     
 ## 🎯 Usage
-1. **🧮 Quantize Signals**: Quantize an input signal by selecting the number of levels or bits and visualize the quantization error and encoded signal.
+1. ** Quantize Signals**: Quantize an input signal by selecting the number of levels or bits and visualize the quantization error and encoded signal.
 
 
