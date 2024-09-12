@@ -62,3 +62,27 @@ This project is a framework for signal processing using Python, designed to help
 1. ** Quantize Signals**: Quantize an input signal by selecting the number of levels or bits and visualize the quantization error and encoded signal.
 
 
+---
+
+# 🔲 Task 4 - Frequency Domain
+
+### Features
+
+- **Fourier Transform**: Apply Fourier transform to any input signal and display frequency versus amplitude and frequency versus phase relations. The user will be prompted to enter the sampling frequency in Hz.
+  
+- **Modify Signal Components**: Allow modification of the amplitude and phase of the signal’s frequency components.
+
+- **Signal Reconstruction (IDFT)**: Reconstruct the signal using Inverse Discrete Fourier Transform (IDFT).
+
+- **Save Frequency Components**: Save the frequency components of the signal in a `.txt` file in polar form (amplitude and phase).
+
+- **Read Frequency Components**: Read a `.txt` file containing frequency components in polar form and reconstruct the signal using IDFT.
+
+**Hint**: Due to the similarity between DFT and IDFT, the code should be designed smartly to handle both transformations efficiently.
+
+## 🎯 Usage
+1. **Fourier Transform**: Input a signal, apply the Fourier transform, and view the frequency domain components (amplitude and phase).
+2. **Modify Components**: Adjust the frequency components and view the updated signal in both time and frequency domains.
+3. **Reconstruction**: Use IDFT to reconstruct the signal from its frequency components, either by computing them or loading from a file.
+4. **Save & Load**: Save the frequency components of the signal in polar form and reload them to reconstruct the signal.
+
