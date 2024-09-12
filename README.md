@@ -1,4 +1,4 @@
-# Signal Processing Framework Development 📊🧮
+# Signal Processing Framework Development 📊📈
 This project is a framework for signal processing using Python, designed to help visualize and manipulate signals with various features.
 
 # 🔲 Task 1 - Signal Processing Framework
@@ -180,5 +180,64 @@ This project is a framework for signal processing using Python, designed to help
 1. **Fast Convolution**: Apply fast convolution using FFT to quickly compute the convolution of two signals.
 2. **Fast Correlation**: Utilize fast correlation with FFT to efficiently compute the cross-correlation between two signals.
 
+
+---
+
+
+# ⭐ Practical Task 1 - Time Domain Enhancements
+
+## Features
+
+### A. Filtering
+- **FIR Filters**: Implement FIR filters and allow users to specify:
+  - **Input Signal**: The signal to be filtered.
+  - **Filter Type**: Choose from low-pass, high-pass, band-pass, or band-stop filters.
+  - **Filter Specifications**:
+    - Sampling Frequency
+    - Cutoff Frequency (for low-pass and high-pass filters) or \( f1 \) and \( f2 \) (for band-pass and band-stop filters)
+    - Stopband Attenuation \( \delta_s \)
+    - Transition Band
+
+  The application will:
+  1. Choose the appropriate window \( w(n) \) and infinite impulse response \( h(n) \).
+  2. Compute the filter order \( N \) and coefficients.
+  3. Convolve the input signal with the computed coefficients.
+  4. Display the filtered signal.
+  5. Save the coefficients to a text file.
+
+  **Notes**:
+  - Adjust frequencies using half the transition band to suit the window method.
+  - Normalize frequencies by dividing by the sampling frequency.
+  - Ensure coefficients are symmetric and \( N \) is odd.
+
+### B. Resampling
+- **Resampling**: Implement resampling with the following options:
+  - **Upsample**: If \( M = 0 \) and \( L \neq 0 \), upsample by \( L \) and apply low-pass filtering.
+  - **Downsample**: If \( M \neq 0 \) and \( L = 0 \), filter first and then downsample by \( M \).
+  - **Fractional Change**: If \( M \neq 0 \) and \( L \neq 0 \), upsample by \( L \), apply low-pass filter, and then downsample by \( M \).
+  - **Error Handling**: If \( M = 0 \) and \( L = 0 \), return an error message.
+
+---
+
+# ⭐ Practical Task 2 - ECG Signal Classification
+
+## Features
+
+- **ECG Classification**: This function distinguishes between two subjects using ECG signals. The application requires:
+  - **Paths**: For two ECG folders of subjects A and B, and a test ECG folder.
+  - **Sampling Frequency (Fs)**
+  - **Frequency Range**: Minimum frequency (\( miniF \)) and maximum frequency (\( maxF \))
+  - **New Sampling Frequency (newFs)**
+
+  The application performs the following steps:
+  1. **Filter**: Apply a band-pass FIR filter with the range \([miniF, maxF]\).
+  2. **Resample**: Adjust the signal to `newFs` if valid, otherwise show an error message and proceed.
+  3. **Remove DC Component**: Eliminate the DC component from the signal.
+  4. **Normalize**: Scale the signal to range from -1 to 1.
+  5. **Auto-Correlation**: Compute auto-correlation for each ECG segment.
+  6. **Preserve Coefficients**: Keep only the necessary coefficients from the auto-correlation.
+  7. **Compute DCT**: Perform Discrete Cosine Transform (DCT).
+  8. **Template Matching**: Compare the non-zero values of the DCT and label each ECG segment in the test folder as subject A or B.
+  9. **Display**: Show the original signal, post-auto-correlation, after preserving coefficients, DCT results, and the final labels for each test case.
 
 ---
