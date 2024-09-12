@@ -45,7 +45,7 @@ This project is a framework for signal processing using Python, designed to help
 ---
 
 
-## 🧮 DSP Task 3 - Signal Quantization
+# DSP Task 3 - Signal Quantization
 
 ### Features
 
