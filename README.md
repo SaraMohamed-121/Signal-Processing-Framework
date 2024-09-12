@@ -1,4 +1,4 @@
-### Signal Processing Framework Development 
+# Signal Processing Framework Development 📊 
 This project is a framework for signal processing using Python, designed to help visualize and manipulate signals with various features.
 
 # DSP Task 1 - Signal Processing Framework
@@ -29,3 +29,14 @@ This project is a framework for signal processing using Python, designed to help
    - Input the required parameters like amplitude, phase shift, and frequency.
 3. **Simultaneous Signal Display**: The framework allows two signals to be displayed at once for a side-by-side comparison.
 
+
+---
+
+# DSP Task 2 - Signal Processing Framework with Arithmetic Operations
+## Features
+
+### 1. Arithmetic Operations Menu
+- **Addition**: Add multiple input signals and display the resulting signal.
+- **Subtraction**: Subtract input signals and display the resulting signal.
+- **Multiplication**: Multiply a signal by a constant to either amplify or reduce the signal’s amplitude (invert if the constant equals -1).
+- **Squaring**: Square the signal and display the resulting signal.
