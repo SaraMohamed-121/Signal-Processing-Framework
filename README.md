@@ -143,9 +143,6 @@ This project is a framework for signal processing using Python, designed to help
 
 ---
 
-Here’s the `README.md` section for Task 7:
-
----
 
 # 🔲 Task 7 - Correlation
 
