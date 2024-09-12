@@ -1,7 +1,7 @@
 # Signal Processing Framework Development 📊🧮
 This project is a framework for signal processing using Python, designed to help visualize and manipulate signals with various features.
 
-# DSP Task 1 - Signal Processing Framework
+# 🔲 Task 1 - Signal Processing Framework
 ## Features
 
 ### 1. Reading and Displaying Signals
@@ -32,7 +32,7 @@ This project is a framework for signal processing using Python, designed to help
 
 ---
 
-# DSP Task 2 - Signal Processing Framework with Arithmetic Operations
+# 🔲 Task 2 - Signal Processing Framework with Arithmetic Operations
 ## Features
 
 ### 1. Arithmetic Operations Menu
@@ -45,7 +45,7 @@ This project is a framework for signal processing using Python, designed to help
 ---
 
 
-# DSP Task 3 - Signal Quantization
+# 🔲 Task 3 - Signal Quantization
 
 ### Features
 
