@@ -164,3 +164,21 @@ This project is a framework for signal processing using Python, designed to help
 
 
 ---
+
+
+# 🔲 Task 8 - Frequency Domain Enhancements
+
+## Features
+
+### 1. Fast Convolution
+- **Fast Convolution**: Implement convolution using the Fast Fourier Transform (FFT) to efficiently compute the convolution of two signals in the frequency domain. This method speeds up the convolution process compared to the time-domain approach.
+
+### 2. Fast Correlation
+- **Fast Correlation**: Use the Fast Fourier Transform (FFT) to perform cross-correlation between two signals efficiently. This method enhances performance by leveraging the frequency domain for faster computation.
+
+## 🎯 Usage
+1. **Fast Convolution**: Apply fast convolution using FFT to quickly compute the convolution of two signals.
+2. **Fast Correlation**: Utilize fast correlation with FFT to efficiently compute the cross-correlation between two signals.
+
+
+---
