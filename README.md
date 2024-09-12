@@ -40,3 +40,27 @@ This project is a framework for signal processing using Python, designed to help
 - **Subtraction**: Subtract input signals and display the resulting signal.
 - **Multiplication**: Multiply a signal by a constant to either amplify or reduce the signal’s amplitude (invert if the constant equals -1).
 - **Squaring**: Square the signal and display the resulting signal.
+
+
+---
+
+
+## 🧮 DSP Task 3 - Signal Quantization
+
+### Features
+
+- **Quantization of Input Signals**: The framework allows the user to quantize a signal by specifying either:
+  - **Number of Levels**: Directly input the levels needed.
+  - **Number of Bits**: The application will compute the appropriate number of levels based on the number of bits.
+
+- **Signal Display**: The application will display:
+  - **Quantized Signal**: The quantized version of the input signal.
+  - **Quantization Error**: The error between the original and quantized signal.
+  - **Encoded Signal**: The encoded representation of the quantized signal.
+
+---
+
+## 🎯 Usage
+1. **🧮 Quantize Signals**: Quantize an input signal by selecting the number of levels or bits and visualize the quantization error and encoded signal.
+
+
