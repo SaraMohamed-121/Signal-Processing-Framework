@@ -142,3 +142,28 @@ This project is a framework for signal processing using Python, designed to help
    
 
 ---
+
+Here’s the `README.md` section for Task 7:
+
+---
+
+# 🔲 Task 7 - Correlation
+
+## Features
+
+### 1. Correlation
+- **Normalized Cross-Correlation**: Compute the normalized cross-correlation of two signals to measure their similarity and detect any shifts or alignments between them.
+
+### 2. Time Analysis
+- **Time Delay Analysis**: Perform time delay analysis on two periodic signals. Given the sampling period, approximate the delay between the two signals to understand their temporal relationship.
+
+### 3. Template Matching
+- **Template Matching**: Allow users to provide paths for two folders of signal classes and a test folder. Using template matching, the application will label all signals in the test folder based on their similarity to the templates provided in the class folders.
+
+## 🎯 Usage
+1. **Correlation**: Compute the normalized cross-correlation between two signals to analyze their similarity.
+2. **Time Analysis**: Input two periodic signals and the sampling period to estimate the time delay between them.
+3. **Template Matching**: Provide paths for class folders and a test folder, then use template matching to label signals in the test folder.
+
+
+---
