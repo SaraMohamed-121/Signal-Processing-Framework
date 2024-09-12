@@ -85,4 +85,23 @@ This project is a framework for signal processing using Python, designed to help
 2. **Modify Components**: Adjust the frequency components and view the updated signal in both time and frequency domains.
 3. **Reconstruction**: Use IDFT to reconstruct the signal from its frequency components, either by computing them or loading from a file.
 4. **Save & Load**: Save the frequency components of the signal in polar form and reload them to reconstruct the signal.
+   
+
+---
+
+# 🔲 Task 5 - Frequency Domain Enhancements
+
+### Features
+
+- **Discrete Cosine Transform (DCT)**: Compute the DCT for a given input signal. Display the result and allow the user to choose the first `m` coefficients to be saved in a `.txt` file.
+
+- **Remove DC Component**: Provide the functionality to remove the DC component from the signal.
+
+## 🎯 Usage
+1. **Compute DCT**: Apply DCT to an input signal, view the result, and save the first `m` coefficients if desired.
+2. **Remove DC Component**: Process the signal to remove the DC component.
+
+
+---
+
 
