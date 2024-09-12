@@ -105,3 +105,40 @@ This project is a framework for signal processing using Python, designed to help
 ---
 
 
+# 🔲 Task 6 - Time Domain
+
+## Features
+
+### 1. Smoothing
+- **Moving Average**: Compute the moving average \( y(n) \) for a signal \( x(n) \). The user can specify the number of points to include in the averaging process.
+
+### 2. Sharpening
+- **First Derivative**: Compute and display the first derivative of the input signal \( Y(n) = x(n) - x(n-1) \).
+- **Second Derivative**: Compute and display the second derivative of the input signal \( Y(n) = x(n+1) - 2x(n) + x(n-1) \).
+
+### 3. Delaying or Advancing
+- **Delay or Advance**: Shift the signal by \( k \) steps either forward (advancing) or backward (delaying).
+
+### 4. Folding
+- **Signal Folding**: Fold the signal to visualize its symmetric properties.
+
+### 5. Delaying or Advancing a Folded Signal
+- **Delay or Advance Folded Signal**: Shift the folded signal by \( k \) steps.
+
+### 6. Remove DC Component
+- **DC Component Removal**: Remove the DC component of the signal in the frequency domain.
+
+### 7. Convolution
+- **Signal Convolution**: Convolve two signals to analyze their interaction and combined effect.
+
+## 🎯 Usage
+1. **Smoothing**: Enter the number of points for averaging to smooth the signal.
+2. **Sharpening**: Compute and display the first and second derivatives of the input signal.
+3. **Delaying or Advancing**: Shift the signal by a specified number of steps.
+4. **Folding**: Fold the signal to view its symmetrical properties.
+5. **Delaying or Advancing Folded Signal**: Adjust the position of the folded signal.
+6. **Remove DC Component**: Eliminate the DC component from the signal in the frequency domain.
+7. **Convolution**: Convolve two signals and view the result.
+   
+
+---
