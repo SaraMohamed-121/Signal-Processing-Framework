@@ -57,9 +57,7 @@ This project is a framework for signal processing using Python, designed to help
   - **Quantized Signal**: The quantized version of the input signal.
   - **Quantization Error**: The error between the original and quantized signal.
   - **Encoded Signal**: The encoded representation of the quantized signal.
-
----
-
+    
 ## 🎯 Usage
 1. **🧮 Quantize Signals**: Quantize an input signal by selecting the number of levels or bits and visualize the quantization error and encoded signal.
 
