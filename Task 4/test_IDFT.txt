@@ -1,0 +1,8 @@
+# test_IIDFT = SignalComapreAmplitude(ii, i_out)
+        # print("SignalComapreAmplitude: ", test_IIDFT)
+        # test_SIDFT = SignalComaprePhaseShift(x, s_out)
+        # print("SignalComaprePhaseShift: ", test_SIDFT)
+        #
+        # if test_IIDFT == True:
+        #     if test_SIDFT == True:
+        #         print("successfully 2 test IDFT")

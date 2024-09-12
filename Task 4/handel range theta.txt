@@ -1,0 +1,15 @@
+theta_graph = []
+        for t in theta:
+            if t >= 0:
+                if t <= 90:
+                    theta_graph.append(t)
+                elif t > 90:
+                    if t <= 180:
+                        theta_graph.append("{:.2f}".format(t - 180))
+            elif t < 0:
+                if t >= -90:
+                    theta_graph.append(t)
+                elif t < -90:
+                    theta_graph.append("{:.2f}".format(t + 180))
+
+        print("theta graph ", theta_graph)
